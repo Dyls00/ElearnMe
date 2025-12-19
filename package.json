@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^10.1.0"
+  },
+  "type": "module",
+  "name": "elearnme",
+  "version": "1.0.0",
+  "main": "src/data.js",
+  "scripts": {
+    "user": "node src/data-user.js",
+    "course": "node src/data-course.js",
+    "en": "node src/data-enrollments.js",
+    "t": "node src/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongoose": "^9.0.2"
+  }
+}
