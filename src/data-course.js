@@ -32,32 +32,32 @@ const courses = Array.from({ length: 8000 }, (_, index) => {
             titre: faker.science.chemicalElement().name,
             etapes: {
                 titre: faker.lorem.lines(1),
-                durée: Math.floor(Math.random() * 120)
+                duree: Math.floor(Math.random() * 120)
             }
         },
     {
             titre: faker.science.chemicalElement().name,
             etapes: {
                 titre: faker.lorem.lines(1),
-                durée: Math.floor(Math.random() * 120)
+                duree: Math.floor(Math.random() * 120)
             }
         }, {
             titre: faker.science.chemicalElement().name,
             etapes: {
                 titre: faker.lorem.lines(1),
-                durée: Math.floor(Math.random() * 120)
+                duree: Math.floor(Math.random() * 120)
             }
         }, {
             titre: faker.science.chemicalElement().name,
             etapes: {
                 titre: faker.lorem.lines(1),
-                durée: Math.floor(Math.random() * 120)
+                duree: Math.floor(Math.random() * 120)
             }
         }, {
             titre: faker.science.chemicalElement().name,
             etapes: {
                 titre: faker.lorem.lines(1),
-                durée: Math.floor(Math.random() * 120)
+                duree: Math.floor(Math.random() * 120)
             }
         }],
         avis: [{
